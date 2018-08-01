@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_sells"
+        android:title="@string/sales"
+        android:icon="@drawable/ic_attach_money_black_24dp"
+        />
+    <item
+        android:id="@+id/navigation_dev"
+        android:icon="@drawable/ic_money_off_black_24dp"
+        android:title="@string/debt" />
+    <item
+        android:id="@+id/navigation_clients"
+        android:title="@string/menu_clients"
+        android:icon="@drawable/ic_person_black_24dp"/>
+
+</menu>

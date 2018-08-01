@@ -1,0 +1,66 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="colorPrimaryDark">@color/primaryDarkColor</item>
+        <item name="colorAccent">@color/secondaryColor</item>
+        <item name="android:textColorPrimary">@color/secondaryTextColor</item>
+        <item name="android:actionBarStyle">@style/MyTheme.ActionBarStyle</item>
+        <item name="android:textColorSecondary">@color/secondaryTextColor</item>
+        <item name="android:windowBackground">@color/colorBackground</item>
+        <item name="android:navigationBarColor">@color/primaryDarkColor</item>
+        <item name="android:statusBarColor">@color/primaryDarkColor</item>
+        <item name="android:colorBackground">@color/colorBackground</item>
+        <item name="android:textColorPrimaryInverse">@color/secondaryTextColor</item>
+        <item name="android:colorButtonNormal">@color/secondaryDarkColor</item>
+        <item name="android:editTextColor">@color/black</item>
+        <item name="android:spinnerDropDownItemStyle">@style/mySpinnerItemStyle</item>
+        <item name="spinnerStyle">@style/spinnerStyle</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+    <style name="MyTheme.ActionBarStyle" parent="@android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:titleTextStyle">@style/MyTheme.ActionBar.TitleTextStyle</item>
+    </style>
+
+    <style name="MyTheme.ActionBar.TitleTextStyle" parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/primaryTextColor</item>
+    </style>
+
+    <style name="Valor">
+        <item name="android:textAlignment">center</item>
+        <item name="android:textSize">@dimen/text_value_size</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="Nome">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="mySpinnerItemStyle" parent="@android:style/Widget.Holo.DropDownItem.Spinner">
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="spinnerStyle" parent="@android:style/Widget.DeviceDefault.Light.Spinner">
+        <item name="android:colorForeground">@color/black</item>
+        <item name="android:textColorPrimary">@color/black</item>
+    </style>
+
+    <style name="checkStyle" parent="Base.Theme.AppCompat">
+        <item name="colorAccent">@color/secondaryColor</item>
+        <item name="android:textColorSecondary">@color/secondaryTextColor</item>
+    </style>
+
+</resources>
