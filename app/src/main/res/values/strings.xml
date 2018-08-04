@@ -1,10 +1,6 @@
 <resources>
     <string name="app_name">Pão de Mel da Fátima</string>
 
-    <!--AdMob -- Testes-->
-    <string name="id_admob">ca-app-pub-3940256099942544~3347511713</string>
-    <string name="id_propaganda_inter">ca-app-pub-3940256099942544/1033173712</string>
-
     <string name="menu_clients">Clientes</string>
     <string name="paid">Pago</string>
     <string name="save">Salvar</string>

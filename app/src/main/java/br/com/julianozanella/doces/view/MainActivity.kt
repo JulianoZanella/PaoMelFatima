@@ -13,7 +13,6 @@ import android.view.Menu
 import android.view.MenuItem
 import br.com.julianozanella.doces.R
 import br.com.julianozanella.doces.extensions.messageLong
-import com.google.android.gms.ads.MobileAds
 import kotlinx.android.synthetic.main.activity_main2.*
 import kotlinx.android.synthetic.main.content_main2.*
 
@@ -23,7 +22,6 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main2)
         setSupportActionBar(toolbar)
-        MobileAds.initialize(this, getString(R.string.id_admob))
         navigation.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener)
         requestPermission()
         replaceFragment(SalesFragment())
